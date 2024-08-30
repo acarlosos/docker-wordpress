@@ -4,7 +4,7 @@ services:
 
   wordpress:
     image: wordpress
-    container_name: ${COMPOSE_PROJECT_NAME}-wordpress
+    container_name: ${COMPOSE_PROJECT_NAME}-app
     restart: always
     ports:
       - "${WEBSERVER_PORT}:80"
